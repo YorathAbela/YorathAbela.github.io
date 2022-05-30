@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@300&display=swap" rel="stylesheet">
 
-    <title>Yorath Abela - Contact</title>
+    <title>Yorath Abela - Email Form</title>
 
     <style>
         /* Reset the CSS Style */
@@ -67,7 +67,7 @@
 
                     <!-- Contact Icon -->
                     <li class="nav-item">
-                        <a class="nav-link" style="padding-top: 18vh; padding-left: 1.5vw;" href="#">
+                        <a class="nav-link" style="padding-top: 18vh; padding-left: 1.5vw;" href="contact.html">
                             <img src="img/Icons/Navbar/ContactA.png" style="width: 5vw;" alt="Contact Icon"></a>
                     </li>
                 </ul>
@@ -80,62 +80,45 @@
             <h1 style="color: white; font-size: 1vw;">Getting your idea out there is my goal.</h1>
         </div>
 
-        <div style="padding-left: 68vw;">
-            <!-- Social Media Links -->
+        <div style="padding-left: 64vw;">
+            <!-- Email Form -->
             <div class="row">
-                <div class="col-1">
-                    <a href="https://www.instagram.com/detectivesammaloney/"><img src="img/Icons/Contact/INSTIa.png"
-                            style="width: 4vw;" alt="Instagram Icon"></a>
-                </div>
-                <div class="col-1">
-                    <h1>
-                        <a href="https://www.instagram.com/detectivesammaloney/"
-                            style="text-decoration:none; font-size: 1vw; color: white; padding-left: 4vw;">
-                            Instagram </a>
-                    </h1>
-                </div>
-            </div>
-
-            <div class="row" style="padding-top: 4vh;">
-                <div class="col-1">
-                    <a href="https://www.facebook.com/Yorath.Abela2003/"><img src="img/Icons/Contact/FBIa.png"
-                            style="width: 4vw;" alt="Facebook Icon"></a>
-                </div>
-                <div class="col-1">
-                    <h1>
-                        <a href="https://www.facebook.com/Yorath.Abela2003/"
-                            style="text-decoration:none; font-size: 1vw; color: white; padding-left: 4vw; padding-top: 30px;">
-                            Facebook </a>
-                    </h1>
-                </div>
-            </div>
-
-            <div class="row" style="padding-top: 4vh;">
-                <div class="col-1">
-                    <a href="https://www.behance.net/yorathabela"><img src="img/Icons/Contact/BEIa.png"
-                            style="width: 4vw;" alt="Behance Icon"></a>
-                </div>
-                <div class="col-1">
-                    <h1>
-                        <a href="https://www.behance.net/yorathabela"
-                            style="text-decoration:none; font-size: 1vw; color: white; padding-left: 4vw; padding-top: 30px;">
-                            Behance </a>
-                    </h1>
-                </div>
-            </div>
-
-            <div class="row" style="padding-top: 4vh;">
-                <div class="col-1">
-                    <a href="form.html"><img src="img/Icons/Contact/MAILIa.png" style="width: 4vw;"
-                            alt="E-Mail Icon"></a>
-                </div>
-                <div class="col-1">
-                    <h1>
-                        <a href="form.html"
-                            style="text-decoration:none; font-size: 1vw; color: white; padding-left: 4vw; padding-top: 30px;">
-                            Email </a>
-                    </h1>
-                </div>
+                <form action="mailto:abelayorath@gmail.com?subject=New_Query_For_Yorath">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                <label style="color: white;" for="Name">Your Name -</label>
+                            </div>
+                            <div class="col-1">
+                                <input type="text" id="Name" name="Name">
+                            </div>
+                        </div>
+                        <div class="row" style="padding-top: 2vh;">
+                            <div class="col-4">
+                                <label style="color: white;" for="Name">Email -</label>
+                            </div>
+                            <div class="col-1">
+                                <input type="password" id="Email" name="Email">
+                            </div>
+                        </div>
+                        <div class="row" style="padding-top: 2vh;">
+                            <div class="col-4">
+                                <label style="color: white;" for="Name">Your Message -</label>
+                            </div>
+                            <div class="col-1">
+                                <input type="text" id="Message" name="Message">
+                            </div>
+                        </div>
+                        <div class="row" style="padding-top: 4vh;">
+                            <div class="col-4">
+                                <a href="contact.html" style="text-decoration: none; color: white;">Back</a>
+                            </div>
+                            <div class="col-3">
+                                <button type="submit" style="padding-left:20px; padding-right:20px">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
