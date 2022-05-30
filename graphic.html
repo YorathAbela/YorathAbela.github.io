@@ -27,8 +27,9 @@
         .background-image {
             background-image: url(./img/BG.png);
             background-size: cover;
-            background-repeat: no-repeat;
+            background-repeat: repeat;
             height: 100vh;
+            overflow-y: scroll;
         }
 
         body {
@@ -74,12 +75,54 @@
             </div>
         </div>
 
-        <!-- Main Text -->
-        <div style="padding-top: 32vh; padding-left:18vw; text-align: left;">
-            <h1 style="color: white; font-family: Druk; font-size: 4.2vw;">(Graphic Design Page)</h1>
-            <h1 style="color: white; font-size: 1vw;">Coming Soon!</h1>
+        <!-- Title -->
+        <div style="padding-top: 4vh; text-align:center;">
+            <h1 style="color: white; font-family: Druk; font-size: 4.2vw;">Graphic Design</h1>
+        </div>
+
+        <!-- Masonry -->
+        <div class="container" style="padding-top: 4vh;">
+            <div class="row">
+                <div class="col-6">
+                    <div class="card-columns">
+                        <div class="card-container">
+                            <a href="#">
+                                <div class="card">
+                                    <img src="img/portfolio/Gd3.png" alt="Poster3">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card-container" style="padding-top: 3vh;">
+                            <a href="#">
+                                <div class="card">
+                                    <img src="img/portfolio/Gd4.png" alt="Poster4">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card-columns">
+                        <div class="card-container">
+                            <a href="#">
+                                <div class="card">
+                                    <img src="img/portfolio/Gd2.png" alt="Poster2">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card-container" style="padding-top: 3vh;">
+                            <a href="#">
+                                <div class="card">
+                                    <img src="img/portfolio/Gd1.png" alt="Poster1">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 </body>
 
 </html>
